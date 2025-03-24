@@ -30,6 +30,7 @@ public class Main {
 
         user.validatePassword("password");
         user.changePassword("Password", "THEPassword");
+        user.password = "NewPass";
         user.changePassword("password", "THEPassword");
         user.validatePassword("tHEPassword");
 
